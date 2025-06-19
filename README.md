@@ -1,3 +1,13 @@
+# AndyWebServices Bitnami Containers
+
+This fork of `bitnami/containers` maintains some image builds not supported by Bitnami, namely ARM64 support. These 
+images *should* maintain feature parity with their Bitnami counterparts, but this has not been rigorously tested. Do 
+**NOT** use these containers in production. 
+
+Currently, AndyWebServices maintains the following custom image builds for platforms `linux/amd64,linux/arm64':
+* `AndyWebServices/mongodb:8.0.10`
+
+
 <!-- markdownlint-disable MD041 -->
 <p align="center">
     <img width="400px" height=auto src="https://dyltqmyl993wv.cloudfront.net/bitnami/bitnami-by-vmware.png" />
